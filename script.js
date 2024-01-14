@@ -9,6 +9,7 @@ let createCard = (img, title, desc, date, month, year, topic) => {
     document.querySelector(".blogs").innerHTML += html
 }  
 
+createCard("assets/image1.png", "Build continuous integration pipelines with GitHub Actions", "GitHub actions provide a really powerful way to integrate continuous integration and delivery into your applications.", 24, "June", 2022, "DevOps")
 createCard("assets/image2.png", "Python for the Absolute beginners", "Python is the most popular programming language out there and it is used for so many different industries.", 24, "June", 2022, "DevOps")
 createCard("assets/image3.png", "Docker from Zero to Hero", "Learn what is Docker and  how Docker is used in the whole software development process.", 24, "June", 2022, "DevOps")
 createCard("assets/image4.png", "Build continuous integration pipelines with GitHub Actions", "GitHub actions provide a really powerful way to integrate continuous integration and delivery into your applications.", 24, "June", 2022, "DevOps")
